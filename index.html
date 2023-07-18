@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Ezekiel Prado ! Portfolio</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="js/javascript.js"></script>
+<!-- auto type -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<!-- icon tab -->
+<link rel="icon" type="image/x-icon" href="img/icontab.png">
+	</head>
+	<body >
+  	<div id="main"></div>
+ <div class="topnav" id="myTopnav">
+<img src="img/wrench.png" class="wrench"><img src="img/gear.png" class="gear rounded-circle">
+  <a href="#"   onclick="contact()">Contact</a>
+  <a href="#"   onclick="cert()">Certificate</a>
+  <a href="#"   onclick="exp()">Experience</a>
+  <a href="#"  onclick="about()">About Me</a>
+  <a href="#"  onclick="home()">Home</a>
+  <a href="#" class="icon" id="open" onclick="openNav()">&#9776;
+  </a>
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" id="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#news" onclick="home()">Home</a>
+  <a href="#about"  onclick="about()">About Me</a>
+  <a href="#about" onclick="exp()">Experience</a>
+  <a href="#about" onclick="cert()">Certificate</a>
+  <a href="#about"  onclick="contact()">Contact</a>
+</div>
+<!-- homee -->
+<div class="content">
+		<div class="home" id="home" style="background-image: url(img/straiveit.jpg);background-attachment: fixed;">
+			<div class="hire">
+			<h1 id="namegreet">Hello I'm Ezekiel Prado</h1>
+			
+			<span class="tes" id="tes"></span>
+			<script>
+var typed= new Typed(".tes",{
+	strings:["Technical Support","IT Staff"],
+typeSpeed:50,
+backSpeed:30,
+loop:true
+})</script>
+			<div class="button">
+			<button id="contbtn" onclick="transfer()"><i class="fa fa-envelope-o" id="pdf"><a href="" > Contact</a></i></button>
+			<button id="cvbtn"><i class="fa fa-file-pdf-o" id="pdf"><a href="https://drive.google.com/file/d/1SDIbu5zRUD3H9yIM11OH7hFafu7yuULN/view?usp=sharing"> Download CV</a></i></button>
+		</div></div>
+		</div>
+		
+<!-- end home -->
+
+<!-- about -->
+
+
+
+
+		<div class="about"id="about">
+<div class="abouting" id="abouting">
+            <div class="leftDiv" id="leftDiv">
+             <img src="img/profile.jpg" class="me" id="me">
+             <div ><a href="https://www.facebook.com/mavilleoprado/" class="visit" id="visit"> Visit <i class="fa fa-facebook">acebook</i></a>
+             </div>
+
+            </div>
+
+            <div class="rightDiv" id="rightDiv">
+        <div class="detaillogo">About me</div>
+
+            <div class="name" id="name">Ezekiel Prado</div>
+
+	<div class="lpc"><img src="img/location.png" class="location" id="location">CAA BF Int'll, Las Piñas City</div>
+	          <div><br><p id="salita">I am a passionate fresh graduate driven by a deep curiosity to explore new knowledge and skills in order to become a highly competitive employee. 	I'am eager to embark on a journey of continuous growth, pushing boundaries, and making a positive impact in the professional world.<br>Thank You!!</p></div>
+
+	<div id="education" class="container">
+ <H3 class="text">Educational Background</h3>
+ <div class="edubg">
+ 	<h2>Bachelor Degree</h2>
+ 	<h3>Bachelor of Science in Information System</h3>
+ 	<h5>2019-2023</h5>
+ 	<h3>Senior Highschool</h3>
+ 	<h4>Accounting Business Management(ABM)</h4>
+ 	<h5>2016-2019</h5>
+ 	</div>
+            </div> 
+
+        </div>
+
+
+      </div>
+      </div>
+
+<!-- end about -->
+						
+
+	<!-- exp -->
+						<div class="exp" id="exp">
+<div class="int">
+	<div class="ojttext">	<h1>Internship</h1></div>
+          <div class="intern" id="intern">
+          	<div class="straive">
+          		<h3 class="tesstraive">Straive (SPi Global) Pascor Drive ,Parañaque</h3>
+          		<img src="img/straive.jpg">
+          		<div class="straivedetail"><h3>HR Staff</h3>
+          		<h4>January 2023 - April 2023</h4>
+          	</div>
+          	</div>
+          	<div class="green">
+          		<h3 class="tesgreen">Greenwich Robinson Las Piñas</h3>
+          		<img src="img/green.jpg">
+          		<div class="greendetail">
+          			<h3>Service Crew</h3>
+          		<h4>January 2019 - April 2019</h4>
+          	</div>
+          	</div>
+</div>
+						</div><!-- end exp -->
+</div>
+
+<!-- cert -->
+								<div class="cert" id="cert">
+<h2 id="labelcert">Certificates and Achivements</h2>
+
+<div class="certificate" id="certificate">
+	
+	<div class="item" id="item2" onclick="scs()">
+			<h5>Setting Up Computer Servers</h5>
+				<img src="certificate/scs.png">
+				<h6>Tesda Online Program March 2023</h6>
+	</div>
+	<div class="item" id="item3"  onclick="scn()">
+		<h5>Setting Up Computer Network</h5>
+				<img src="certificate/scn.png">
+				<h6>Tesda Online Program March 2023</h6>
+	</div>
+	<div class="item" id="item4"  onclick="mcsn()">
+			<h5>Maintaining Computer System and Networks</h5>
+				<img src="certificate/mcsn.png">
+				<h6>Tesda Online Program March 2023</h6>
+	</div>
+	<div class="item" id="item5"onclick="icss()">
+			<h5>Installing and Configuring Computer System</h5>
+				<img src="certificate/icss.png">
+				<h6>Tesda Online Program March 2023</h6>
+	</div>
+	<div class="item" id="item6" onclick="introcss()">
+				<h5>Introduction to Computer Servicing System</h5>
+				<img src="certificate/introcss.png">
+				<h6>Tesda Online Program March 2023</h6>
+	</div>
+	<div class="item" id="item7" onclick="electrical()">
+		<h5>Electrical Installation</h5>
+				<img src="certificate/electrical.png">
+				<h6>Tesda Online Program March 2023</h6>
+	</div>
+
+	<div class="item" id="item7"onclick="solar()">
+		<h5>Solar Night Light Assembly</h5>
+				<img src="certificate/solar.png">
+				<h6>Tesda Online Program March 2023</h6>
+	</div>
+
+	<div class="item" id="item9" onclick="sql()">
+				<h5>Online Course SQL</h5>
+				<img src="certificate/sql.png">
+				<h6>Solo Learn December 2022</h6>
+	</div>
+
+	<div class="item" id="item11" onclick="aad()">
+	<h5>Champion-Assembly and Disassembly</h5>
+		<img src="certificate/assembly.jpg">	
+		<h6>DFCAMCLP IT-HacktoberFest 2022</h6>
+	</div>
+
+	<div class="item" id="item9" onclick="html()">
+				<h5>Online Course HTML</h5>
+				<img src="certificate/html.jpg">
+				<h6>Solo Learn September 2022</h6>
+	</div>
+
+	<div class="item" id="item10" onclick="java()">
+			<h5>Online Course JAVA</h5>
+				<img src="certificate/java.png">
+				<h6>Solo Learn September 2022</h6>
+	</div>
+</div>
+	</div><!-- cert end -->
+
+<!-- contact -->
+<div class="contact" id="contact">
+
+<div  class="email" id="email">
+	<div class="sending" id="sending">
+		<h2>Contact us</h2>
+		<h5>Need some help?</h5>
+		<form target="_blank" action="https://formsubmit.co/ezekielprado06@gmail.com" method="POST">
+ 
+          <input type="text" name="name" class="form-control" placeholder="Full Name" required id="form"><br>
+    
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required id="form"><br>
+        
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required id="form"></textarea><br>
+    
+    <button type="submit" class="btn btn-lg btn-dark btn-block"><i class="fa fa-envelope-o"></i>Send Messages</button>
+  </form>
+
+	</div>
+
+
+	<div class="social" id="social">
+		
+<h2>Contact Information</h2>
+<div class="media" id="media">
+
+
+<div class="number">
+<div class="phone" id="phone">
+	<i class='fa fa-phone'></i>
+</div>
+<div id="number">
+	<div> 09107175607( TNT )</div>
+	<div> 09974066000( TM )</div>
+</div>
+</div>
+
+
+<div class="fblogo">
+<div class="fb">
+	<i class='fa fa-facebook'  onclick="fb()"></i>
+</div>
+<div >
+	<div id="fba"> <a href="https://www.facebook.com/mavilleoprado/"> Ezekiel Prado</a></div>
+
+</div>
+</div>
+
+<div class="emvelop">
+<div class="em">
+	<i class='fa fa-envelope-o'></i>
+</div>
+<div >
+	<div id="emailadd"> ezekielprado06@gmail.com</div>
+
+</div>
+</div>
+
+</div>
+
+
+
+</div>
+
+<!-- end --></div>
+	</div>
+	</body>
+	</html>
